@@ -5,7 +5,7 @@ const { Pool } = pkg;
 // you'll want to put in your own info for password and database
 const pool = new Pool({
   user: "postgres",
-  password: "postgres",
+  password: "Run@way1104!",
   database: "users_db",
   host: "localhost",
   port: 5432,

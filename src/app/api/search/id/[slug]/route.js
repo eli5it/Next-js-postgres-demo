@@ -1,0 +1,20 @@
+import pool from "@/db"
+export async function GET(request, params) {
+    try {
+        const slug = params.slug
+       const query = `SELECT * FROM users id email = $1`
+       const results = await pool.query(query, [slug])
+
+       console.log(params)
+       console.log('i am here')
+
+
+       return new Response(JSON.stringify({ users: results.rows }), { status: 200 })
+
+
+
+    } catch (err) {
+        return new Response(err.message, { status: 500 })
+
+    }
+}
