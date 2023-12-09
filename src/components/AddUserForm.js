@@ -24,7 +24,6 @@ const Form = ({setUsers}) => {
             setUsers((prev) => [...prev, user])
         
 
-
         }
        
          catch (err) {
