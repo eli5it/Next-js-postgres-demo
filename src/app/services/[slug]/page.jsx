@@ -3,7 +3,6 @@ import { getServiceById } from "@/models/service"
 
 
 const Page =  async ({params}) => {
-    console.log(params)
     const id = parseInt(params.slug)
  
     const service = await getServiceById(id)

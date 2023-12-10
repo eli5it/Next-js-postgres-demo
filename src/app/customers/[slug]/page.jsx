@@ -23,7 +23,6 @@ const Page = async ({params}) => {
                     <li>Last Name: {last_name}</li>
                     <li>Email: {email}</li>
                     <li>Phone: {phone_num}</li>
-                    <li>ID: {id}</li>
                 </ul>
             </div>
         </>
