@@ -17,5 +17,10 @@
     "react-dom": "^18",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.4",
+    "@types/react": "18.2.43",
+    "typescript": "5.3.3"
   }
 }
